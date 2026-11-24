@@ -47,3 +47,7 @@ auto_approve:
 actions_permissions:
   enabled: true
   allowed_actions: all
+
+workflow_permissions:
+  default_workflow_permissions: "read"
+  can_approve_pull_request_reviews: true
