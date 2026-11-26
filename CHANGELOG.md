@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.3] - 2026-11-26
+
+### Fixed
+
+- resolve katex and js-yaml security alerts in dev dependencies (#42)
+- use client-id instead of the deprecated app-id for the bot token (#36)
+
+### Changed
+
+- join the history of main into develop
+- replace the old Pre-Release (Develop) workflow with the Pre-Release (Alpha) variant (#38)
+- note that the package is not published to npm yet (#41)
+- align .github files and scripts with the template (#39)
+- prefer REPO_ADMIN_TOKEN over the bot app token for merges and branch updates (#37)
+- deps-dev(deps-dev): bump typescript from 5.9.3 to 6.0.3 (#28)
+- use the winccoa-tools-pack-bot app token for automated PR actions (#35)
+- deps-dev(deps-dev): bump tsx from 4.23.13 to 4.23.15 (#10)
+- Initialize main
+
 ## [0.2.2] - 2026-09-03
 
 ### Changed
